@@ -25,10 +25,9 @@ Host remote_server
 
 vscode现在就可以远程连接服务器了，如果想写python代码，直接创建文件就可以了。
 
-![vscode-connet-server](../assets/img/vscode-connet-server.png){: width="350" .normal}
-<div align="center"><img src="/images/vscode-connet-server.png" width="50%"></div>
+![vscode-connet-server](/assets/img/vscode-connet-server.png)
 
-<div align="center"><img src="/images/server-vscode.png" width="50%"></div>
+![server-vscode](/assets/img/server-vscode.png)
 
 而服务器这边要能够创建jupyter noteboot，也就是些安装了，不难就是找起来有点麻烦。我喜欢用conda安装一个虚拟环境就是因为隔离了干净省心，真要是搞坏了直接删了重新建一个。服务器上的操作也只需要3步：
 
@@ -53,24 +52,20 @@ vscode现在就可以远程连接服务器了，如果想写python代码，直�
 
    结果如下：最下面的两个URL就是刚才启动的服务的地址，我复制`http://localhost:8889/?token=aef9a514fa484b83aa4554371024ebc5b50bbed25c2521ab`，当然复制另一个也没问题。
 
-   <div align="center"><img src="/images/create-notebook-on-server.png" width="100%"></div>
+[//]:# <div align="center"><img src="/images/create-notebook-on-server.png" width="100%"></div>
 
  最后在已经连接到服务器的VScode中进入命令模式，点击下图下拉菜单中被选中的选项（好绕口，理解就好）。意思也很明显：指定一个本地或者远程的jupyter服务连接。
 
-<div align="center"><img src="/images/connet-special-notebook.png" width="100%"></div>
+[//]:# <div align="center"><img src="/images/connet-special-notebook.png" width="100%"></div>
 
 把刚才复制的URL粘贴进去，按回车。
 
-<div align="center"><img src="/images/url.png" width="100%"></div>
+[//]:# <div align="center"><img src="/images/url.png" width="100%"></div>
 
-<div >
 
 创建一个jupyter文件测试下：
 
-
-
-<div align="center"><img src="/images/test-notebook.png" width="100%"></div>
-
+[//]:# <div align="center"><img src="/images/test-notebook.png" width="100%"></div>
 
 
 整个过程就这么简单而且内容也不多，但就是写了快两个小时吧，正好有今晚有时间就整理一下，以后就不需要google再去各种找了。后面几张大图看起来好丑，感觉以后要学一些有关排版设计的内容了，忽然想起自己曾今自学了一段时间PS，好久没用这会好像也忘差不多了。回头自己读刚才写的blog隐隐约约有种很着急的感觉，不知道是思维还是文笔的锅，总之有时间就多写写，“感觉”也是可以慢慢积累的呢~。
