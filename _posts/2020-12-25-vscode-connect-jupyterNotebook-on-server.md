@@ -25,9 +25,7 @@ Host remote_server
 
 vscode现在就可以远程连接服务器了，如果想写python代码，直接创建文件就可以了。
 
-![vscode-connet-server](/assets/img/vscode-connet-server.png)
 
-![server-vscode](/assets/img/server-vscode.png)
 
 而服务器这边要能够创建jupyter noteboot，也就是些安装了，不难就是找起来有点麻烦。我喜欢用conda安装一个虚拟环境就是因为隔离了干净省心，真要是搞坏了直接删了重新建一个。服务器上的操作也只需要3步：
 
