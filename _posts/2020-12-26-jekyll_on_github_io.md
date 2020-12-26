@@ -71,7 +71,6 @@ A minimal, sidebar, responsive web design Jekyll theme that focuses on text pres
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Credits](#credits)
 - [Supporting](#supporting)
 - [License](#license)
