@@ -75,3 +75,13 @@ alias unsetproxy='unset http_proxy unset https_proxy'
 ```
 chromium-browser --proxy-server="socks5://127.0.0.1:7891"
 ```
+
+### sbt 代理设置
+```
+sudo vi /usr/share/sbt/conf/sbtconfig.txt
+加入以下配置
+ -Dhttp.proxyHost=127.0.0.1
+ -Dhttp.proxyPort=7890
+ -Dsocks.ProxyHost=127.0.0.1
+ -Dsocks.ProxyPort=7891 
+```
