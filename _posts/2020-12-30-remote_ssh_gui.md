@@ -46,3 +46,9 @@ localhost
 ```shell
 export DISPLAY="192.168.2.88:0.0"
 ```
+
+# 免密码登入
+```shell
+ssh-keygen -t rsa -C "your_email@example.com"
+```
+将生成的id_rsa.pub中的内容加入到服务器的~/.ssh/authorized_keys即可
