@@ -16,12 +16,12 @@ tags: [stabilter,image]
 
 [慢速电子防抖译文及实现](https://zhuanlan.zhihu.com/p/250839967)
 
-https://learnopencv.com/video-stabilization-using-point-feature-matching-in-opencv/
+<https://learnopencv.com/video-stabilization-using-point-feature-matching-in-opencv/>
 
-http://nghiaho.com/uploads/code/videostab.cpp
+<http://nghiaho.com/uploads/code/videostab.cpp>
 
-https://abhitronix.github.io/
+<https://abhitronix.github.io/>
 
-https://github.com/spmallick/learnopencv/blob/master/VideoStabilization/video_stabilization.py
+<https://github.com/spmallick/learnopencv/blob/master/VideoStabilization/video_stabilization.py>
 
-https://www.researchgate.net/
+<https://www.researchgate.net/>
